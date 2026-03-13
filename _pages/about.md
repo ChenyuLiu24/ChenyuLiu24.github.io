@@ -321,7 +321,7 @@ redirect_from:
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/GBA.jog" alt="microbiome and Alzheimer's project">
+    <img src="/images/GBA.png" alt="microbiome and Alzheimer's project">
   </div>
 
   <div class="paper-box-text">
