@@ -217,7 +217,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <div class="home-intro">
-  My name is <strong>Chenyu Liu</strong>. I am a <strong>Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University</strong>. My research lies at the intersection of <strong>statistical methodology</strong>, <strong>high-dimensional omics data</strong>, and <strong>biomedical applications</strong>, with particular interests in <strong>Alzheimer’s disease</strong>, <strong>microbiome studies</strong>, <strong>proteomics</strong>, and <strong>Bayesian modeling</strong>.
+  My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University. My research lies at the intersection of statistical methodology, high-dimensional omics data, and biomedical applications, with particular interests in Alzheimer’s disease, microbiome studies, proteomics, and Bayesian modeling.
 </div>
 
 <div class="home-intro">
