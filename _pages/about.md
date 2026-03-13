@@ -20,21 +20,44 @@ redirect_from:
   font-size: 1.12rem;
   line-height: 1.9;
   margin-bottom: 1.2rem;
+  color: #2d3748;
 }
 
 .home-intro strong {
-  color: #19376d;
+  color: #234a8f;
 }
 
 .home-highlight {
-  border-left: 6px solid #ff7a90;
-  background: linear-gradient(135deg, #fff4f6 0%, #f8fbff 100%);
+  border-left: 6px solid #f06c86;
+  background: linear-gradient(135deg, #fff6f8 0%, #f4f8ff 100%);
   padding: 1.05rem 1.25rem;
   border-radius: 14px;
   margin: 1.6rem 0 2rem 0;
   font-size: 1.12rem;
   line-height: 1.85;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  color: #334155;
+  box-shadow: 0 6px 18px rgba(42, 71, 120, 0.08);
+}
+
+h2 {
+  color: #243b53;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: #2b3a55;
+}
+
+a {
+  color: #2f5da8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d95d7a;
+  text-decoration: underline;
 }
 
 .card-grid {
@@ -48,7 +71,13 @@ redirect_from:
   border-radius: 18px;
   padding: 1.25rem 1.2rem 1.05rem 1.2rem;
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-  border: 1px solid rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(40, 56, 90, 0.09);
 }
 
 .info-card h3 {
@@ -66,22 +95,27 @@ redirect_from:
   margin-bottom: 0.45rem;
   font-size: 1.05rem;
   line-height: 1.75;
+  color: #374151;
 }
 
 .card-blue {
-  background: linear-gradient(135deg, #eef4ff 0%, #f8fbff 100%);
+  background: linear-gradient(135deg, #edf4ff 0%, #f8fbff 100%);
+  border-color: #d7e6ff;
 }
 
 .card-pink {
-  background: linear-gradient(135deg, #fff1f5 0%, #fff9fb 100%);
+  background: linear-gradient(135deg, #fff2f6 0%, #fff9fb 100%);
+  border-color: #ffd8e3;
 }
 
 .card-yellow {
-  background: linear-gradient(135deg, #fff9e8 0%, #fffef7 100%);
+  background: linear-gradient(135deg, #fff8e7 0%, #fffdf6 100%);
+  border-color: #f6e6b3;
 }
 
 .card-green {
-  background: linear-gradient(135deg, #edfdf5 0%, #f8fffb 100%);
+  background: linear-gradient(135deg, #eefbf4 0%, #f8fffb 100%);
+  border-color: #d8f0df;
 }
 
 .paper-box {
@@ -90,11 +124,17 @@ redirect_from:
   gap: 1.2rem;
   align-items: stretch;
   background: #ffffff;
-  border: 1px solid #ececec;
+  border: 1px solid #e9edf4;
   border-radius: 18px;
   padding: 1.2rem;
   margin-bottom: 1.4rem;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  box-shadow: 0 8px 22px rgba(40, 56, 90, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.paper-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(40, 56, 90, 0.09);
 }
 
 .paper-box-image {
@@ -111,32 +151,35 @@ redirect_from:
   flex: 2 1 380px;
   font-size: 1.04rem;
   line-height: 1.8;
+  color: #374151;
 }
 
 .paper-box-text h3 {
   margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
   font-size: 1.28rem;
+  color: #243b53;
 }
 
 .badge-soft {
   display: inline-block;
   padding: 0.25rem 0.72rem;
   border-radius: 999px;
-  background: #ffe0e7;
-  color: #a63d57;
+  background: #ffe3ea;
+  color: #b24768;
   font-size: 0.86rem;
   font-weight: 700;
   margin-bottom: 0.85rem;
 }
 
 .badge-blue {
-  background: #e4eeff;
-  color: #2f5da8;
+  background: #e2edff;
+  color: #3c66b0;
 }
 
 .badge-green {
-  background: #dcf7ea;
-  color: #1d7a55;
+  background: #ddf5e7;
+  color: #2d7f5e;
 }
 
 .news-list,
@@ -144,6 +187,7 @@ redirect_from:
 .edu-list {
   font-size: 1.04rem;
   line-height: 1.8;
+  color: #374151;
 }
 
 .news-list li,
@@ -160,36 +204,44 @@ redirect_from:
 }
 
 .fact-box {
-  background: linear-gradient(135deg, #ffffff 0%, #fafcff 100%);
-  border: 1px solid #ebedf0;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fbff 100%);
+  border: 1px solid #e7edf5;
   border-radius: 16px;
   padding: 1rem 1rem 0.9rem 1rem;
   text-align: center;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+  box-shadow: 0 5px 16px rgba(40, 56, 90, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fact-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(40, 56, 90, 0.08);
 }
 
 .fact-number {
   font-size: 1.95rem;
   font-weight: 800;
-  color: #e85d75;
+  color: #ef6b7f;
   line-height: 1.2;
 }
 
 .fact-label {
   margin-top: 0.4rem;
   font-size: 1.03rem;
-  color: #444;
+  color: #4b5563;
   line-height: 1.6;
 }
 
 .contact-box {
-  background: linear-gradient(135deg, #f7fbff 0%, #fff9fb 100%);
-  border: 1px solid #e9eef5;
+  background: linear-gradient(135deg, #f4f8ff 0%, #fff7fa 100%);
+  border: 1px solid #e4ebf5;
   border-radius: 16px;
   padding: 1rem 1.2rem;
   margin-top: 1rem;
   font-size: 1.04rem;
   line-height: 1.8;
+  color: #374151;
+  box-shadow: 0 5px 16px rgba(40, 56, 90, 0.04);
 }
 
 .anchor {
@@ -211,21 +263,29 @@ redirect_from:
   .paper-box-text h3 {
     font-size: 1.16rem;
   }
+
+  .info-card h3 {
+    font-size: 1.14rem;
+  }
+
+  .fact-number {
+    font-size: 1.7rem;
+  }
+
+  .fact-label {
+    font-size: 0.98rem;
+  }
 }
 </style>
 
 <span class='anchor' id='about-me'></span>
 
 <div class="home-intro">
-  My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University. I work on both methodological and applied problems. On the methodological side, I study separation in logistic regression and develop correction procedures for odds ratio inflation. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and improve statistical inference in translational research.
+My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University, where I work on both methodological and applied problems. Methodologically, I study separation in logistic regression and develop correction procedures to address odds ratio inflation. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and improve statistical inference in translational research.
 </div>
 
 <div class="home-highlight">
- My research lies at the intersection of statistical methodology, high-dimensional omics data, and biomedical applications, with particular interests in Alzheimer’s disease, microbiome studies, proteomics, and Bayesian modeling.
-</div>
-
-<div class="home-intro">
-  Feel free to reach out if you would like to discuss research, collaboration, or related projects.
+My research sits at the intersection of statistical methodology, high-dimensional omics data, and biomedical applications. I am particularly interested in Alzheimer's disease, microbiome studies, proteomics, and Bayesian modeling.
 </div>
 
 <div class="card-grid">
@@ -268,7 +328,7 @@ redirect_from:
 
 <div class="info-card card-green">
   <p>
-    Outside of research, I enjoy photography, traveling, kayaking, and exploring food. I'm also learning to bake!
+    Outside of research, I enjoy photography, traveling, kayaking, and exploring new cuisines. I've recently taken up baking — still very much a work in progress!
   </p>
 </div>
 
