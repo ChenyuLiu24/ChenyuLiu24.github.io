@@ -17,9 +17,9 @@ redirect_from:
 
 <style>
 .home-intro {
-  font-size: 1.06rem;
-  line-height: 1.85;
-  margin-bottom: 1.15rem;
+  font-size: 1.12rem;
+  line-height: 1.9;
+  margin-bottom: 1.2rem;
 }
 
 .home-intro strong {
@@ -32,14 +32,9 @@ redirect_from:
   padding: 1.05rem 1.25rem;
   border-radius: 14px;
   margin: 1.6rem 0 2rem 0;
-  font-size: 1.08rem;
+  font-size: 1.12rem;
+  line-height: 1.85;
   box-shadow: 0 4px 14px rgba(0,0,0,0.05);
-}
-
-.section-title {
-  margin-top: 2.2rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
 }
 
 .card-grid {
@@ -58,8 +53,8 @@ redirect_from:
 
 .info-card h3 {
   margin-top: 0;
-  margin-bottom: 0.85rem;
-  font-size: 1.18rem;
+  margin-bottom: 0.9rem;
+  font-size: 1.24rem;
 }
 
 .info-card ul {
@@ -69,6 +64,8 @@ redirect_from:
 
 .info-card li {
   margin-bottom: 0.45rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
 }
 
 .card-blue {
@@ -95,7 +92,7 @@ redirect_from:
   background: #ffffff;
   border: 1px solid #ececec;
   border-radius: 18px;
-  padding: 1.15rem;
+  padding: 1.2rem;
   margin-bottom: 1.4rem;
   box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
@@ -112,6 +109,13 @@ redirect_from:
 
 .paper-box-text {
   flex: 2 1 380px;
+  font-size: 1.04rem;
+  line-height: 1.8;
+}
+
+.paper-box-text h3 {
+  margin-top: 0.2rem;
+  font-size: 1.28rem;
 }
 
 .badge-soft {
@@ -120,7 +124,7 @@ redirect_from:
   border-radius: 999px;
   background: #ffe0e7;
   color: #a63d57;
-  font-size: 0.82rem;
+  font-size: 0.86rem;
   font-weight: 700;
   margin-bottom: 0.85rem;
 }
@@ -133,6 +137,13 @@ redirect_from:
 .badge-green {
   background: #dcf7ea;
   color: #1d7a55;
+}
+
+.news-list,
+.award-list,
+.edu-list {
+  font-size: 1.04rem;
+  line-height: 1.8;
 }
 
 .news-list li,
@@ -158,16 +169,17 @@ redirect_from:
 }
 
 .fact-number {
-  font-size: 1.7rem;
+  font-size: 1.95rem;
   font-weight: 800;
   color: #e85d75;
   line-height: 1.2;
 }
 
 .fact-label {
-  margin-top: 0.35rem;
-  font-size: 0.98rem;
+  margin-top: 0.4rem;
+  font-size: 1.03rem;
   color: #444;
+  line-height: 1.6;
 }
 
 .contact-box {
@@ -176,11 +188,28 @@ redirect_from:
   border-radius: 16px;
   padding: 1rem 1.2rem;
   margin-top: 1rem;
+  font-size: 1.04rem;
+  line-height: 1.8;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
 }
 
 @media (max-width: 768px) {
   .home-intro {
-    font-size: 1rem;
+    font-size: 1.02rem;
+  }
+
+  .home-highlight {
+    font-size: 1.03rem;
+  }
+
+  .paper-box-text h3 {
+    font-size: 1.16rem;
   }
 }
 </style>
@@ -188,7 +217,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <div class="home-intro">
-  My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University. My research lies at the intersection of statistical methodology, high-dimensional omics data, and biomedical applications, with particular interests in Alzheimer’s disease, microbiome studies, proteomics, and Bayesian modeling.
+  My name is <strong>Chenyu Liu</strong>. I am a <strong>Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University</strong>. My research lies at the intersection of <strong>statistical methodology</strong>, <strong>high-dimensional omics data</strong>, and <strong>biomedical applications</strong>, with particular interests in <strong>Alzheimer’s disease</strong>, <strong>microbiome studies</strong>, <strong>proteomics</strong>, and <strong>Bayesian modeling</strong>.
 </div>
 
 <div class="home-intro">
@@ -199,7 +228,9 @@ redirect_from:
   My research focuses on developing reliable statistical methods for complex biomedical data, especially in Alzheimer’s disease, microbiome science, and precision health.
 </div>
 
-Feel free to reach out if you would like to discuss research, collaboration, or related projects.
+<div class="home-intro">
+  Feel free to reach out if you would like to discuss research, collaboration, or related projects.
+</div>
 
 <div class="card-grid">
 
@@ -223,17 +254,28 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
     </ul>
   </div>
 
-<div class="info-card card-yellow">
-  <h3>💻 Methods & Tools</h3>
-  <ul>
-    <li>R, Python, MATLAB</li>
-    <li>Stan and brms</li>
-    <li>Bioinformatics: QIIME2, MetaPhlAn, HUMAnN</li>
-    <li>Sequence analysis: Kraken2, Bracken, Bowtie2, minimap2</li>
-  </ul>
-</div>
+  <div class="info-card card-yellow">
+    <h3>💻 Methods & Tools</h3>
+    <ul>
+      <li>R, Python, MATLAB</li>
+      <li>Stan and brms</li>
+      <li>Bioinformatics: QIIME2, MetaPhlAn, HUMAnN</li>
+      <li>Sequence analysis: Kraken2, Bracken, Bowtie2, minimap2</li>
+    </ul>
+  </div>
 
 </div>
+
+<span class='anchor' id='travel-snapshot'></span>
+
+## 🌍 Outside of Research
+
+<div class="info-card card-green">
+  <p>
+    Outside of research, I enjoy photography, traveling, kayaking, and exploring food. I'm also learning to bake!
+  </p>
+</div>
+
 
 ## ✈️ Travel Snapshot
 
@@ -252,14 +294,16 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
   </div>
 </div>
 
-## 📰 News
+<span class='anchor' id='news'></span>
+## 🎉 News
 
 <ul class="news-list">
-  <li><strong>2026.03</strong> 🎤 I will be presenting my research on the Separation Problem at the ENAR 2026 Spring Meeting.</li>
-  <li><strong>2025.11</strong> 🎉 Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>.</li>
-  <li><strong>2025.08</strong> ✨ Received a Conference Fellowship for the Alzheimer’s Association International Conference 2025.</li>
+  <li><strong>2026.03</strong> I will be presenting my research on the Separation Problem at the ENAR 2026 Spring Meeting.</li>
+  <li><strong>2025.11</strong> Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>.</li>
+  <li><strong>2025.08</strong> Received a Conference Fellowship for the Alzheimer’s Association International Conference 2025.</li>
 </ul>
 
+<span class='anchor' id='selected-research'></span>
 ## 📄 Selected Research
 
 <div class="paper-box">
@@ -307,15 +351,8 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
   </div>
 </div>
 
-## 🌍 Outside of Research
 
-<div class="info-card card-green">
-  <p>
-    Outside of research, I enjoy photography, traveling, kayaking, and exploring food. I'm also learning to bake!
-  </p>
-</div>
-
-
+<span class='anchor' id='education'></span>
 ## 🎓 Education
 
 <ul class="edu-list">
@@ -324,6 +361,17 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
   <li><strong>B.S. in Statistics</strong>, Wuhan University of Technology, 2016 to 2020</li>
 </ul>
 
+<span class='anchor' id='service'></span>
+## 🤝 Service
+
+<ul class="award-list">
+  <li><strong>President</strong>, ASA Student Chapter, Case Western Reserve University</li>
+  <li><strong>Student Representative</strong>, Department of Population and Quantitative Health Sciences</li>
+  <li><strong>Statistical Consultant</strong> for collaborative research projects</li>
+  <li><strong>Poster Judge</strong>, Fall Intersection, Case Western Reserve University</li>
+</ul>
+
+<span class='anchor' id='awards'></span>
 ## 🏅 Honors and Awards
 
 <ul class="award-list">
