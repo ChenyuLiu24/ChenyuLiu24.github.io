@@ -308,7 +308,7 @@ redirect_from:
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/500x300.png" alt="logistic regression project">
+    <img src="/images/Workflow.pdf" alt="logistic regression project">
   </div>
 
   <div class="paper-box-text">
@@ -318,6 +318,8 @@ redirect_from:
       I develop diagnostic tools and correction procedures for inflated odds ratio estimates under perfect or near separation in logistic regression.
     </p>
     <p><strong>Keywords:</strong> logistic regression, separation, odds ratio inflation, Bayesian methods</p>
+      <p>
+    <strong>Package:</strong> <a href="https://github.com/bioscinema/DISCO" target="_blank">DISCO</a></p>
   </div>
 </div>
 
