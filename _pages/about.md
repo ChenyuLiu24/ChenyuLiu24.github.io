@@ -235,6 +235,23 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
 
 </div>
 
+## ✈️ Travel Snapshot
+
+<div class="fun-facts">
+  <div class="fact-box">
+    <div class="fact-number">20</div>
+    <div class="fact-label">Provinces / municipalities / autonomous regions in China</div>
+  </div>
+  <div class="fact-box">
+    <div class="fact-number">12</div>
+    <div class="fact-label">States in the United States</div>
+  </div>
+  <div class="fact-box">
+    <div class="fact-number">8</div>
+    <div class="fact-label">Countries visited</div>
+  </div>
+</div>
+
 ## 📰 News
 
 <ul class="news-list">
@@ -295,26 +312,10 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
 
 <div class="info-card card-green">
   <p>
-    Outside of research, I enjoy <strong>photography</strong>, <strong>traveling</strong>, <strong>kayaking</strong>, and <strong>exploring food</strong>. I'm also learning to <strong>bake</strong>!
+    Outside of research, I enjoy photography, traveling, kayaking, and exploring food. I'm also learning to bake!
   </p>
 </div>
 
-## ✈️ Travel Snapshot
-
-<div class="fun-facts">
-  <div class="fact-box">
-    <div class="fact-number">20</div>
-    <div class="fact-label">Provinces / municipalities / autonomous regions in China</div>
-  </div>
-  <div class="fact-box">
-    <div class="fact-number">12</div>
-    <div class="fact-label">States in the United States</div>
-  </div>
-  <div class="fact-box">
-    <div class="fact-number">8</div>
-    <div class="fact-label">Countries visited</div>
-  </div>
-</div>
 
 ## 🎓 Education
 
