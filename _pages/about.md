@@ -332,10 +332,3 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
   <li>The Third-Class Scholarship, Wuhan University of Technology, 2019</li>
   <li>Honorable Mention, Mathematical Contest in Modeling, 2019</li>
 </ul>
-
-## 📬 Contact
-
-<div class="contact-box">
-  <p><strong>Email:</strong> <a href="mailto:cxl1299@case.edu">cxl1299@case.edu</a></p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/ChenyuLiu24">ChenyuLiu24</a></p>
-</div>
