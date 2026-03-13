@@ -217,15 +217,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <div class="home-intro">
-  My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University. My research lies at the intersection of statistical methodology, high-dimensional omics data, and biomedical applications, with particular interests in Alzheimer’s disease, microbiome studies, proteomics, and Bayesian modeling.
-</div>
-
-<div class="home-intro">
-  I work on both methodological and applied problems. On the methodological side, I study separation in logistic regression and develop correction procedures for odds ratio inflation. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and improve statistical inference in translational research.
+  My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University. I work on both methodological and applied problems. On the methodological side, I study separation in logistic regression and develop correction procedures for odds ratio inflation. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and improve statistical inference in translational research.
 </div>
 
 <div class="home-highlight">
-  My research focuses on developing reliable statistical methods for complex biomedical data, especially in Alzheimer’s disease, microbiome science, and precision health.
+ My research lies at the intersection of statistical methodology, high-dimensional omics data, and biomedical applications, with particular interests in Alzheimer’s disease, microbiome studies, proteomics, and Bayesian modeling.
 </div>
 
 <div class="home-intro">
@@ -298,9 +294,9 @@ redirect_from:
 ## 🎉 News
 
 <ul class="news-list">
-  <li><strong>2026.03</strong> I will be presenting my research on the Separation Problem at the ENAR 2026 Spring Meeting.</li>
-  <li><strong>2025.11</strong> Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>.</li>
-  <li><strong>2025.08</strong> Received a Conference Fellowship for the Alzheimer’s Association International Conference 2025.</li>
+  <li><strong>2026.03</strong> I will be presenting my research on the Separation Problem at the ENAR 2026 Spring Meeting!</li>
+  <li><strong>2025.11</strong> Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>!</li>
+  <li><strong>2025.08</strong> Received a Conference Fellowship for the Alzheimer’s Association International Conference 2025!</li>
 </ul>
 
 <span class='anchor' id='selected-research'></span>
