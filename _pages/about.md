@@ -308,7 +308,7 @@ redirect_from:
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/Workflow.pdf" alt="logistic regression project">
+    <img src="/images/DISCO.png" alt="logistic regression project">
   </div>
 
   <div class="paper-box-text">
