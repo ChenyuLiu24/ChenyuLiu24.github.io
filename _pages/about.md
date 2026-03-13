@@ -188,7 +188,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <div class="home-intro">
-  My name is <strong>Chenyu Liu</strong>. I am a <strong>Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University</strong>. My research lies at the intersection of <strong>statistical methodology</strong>, <strong>high-dimensional omics data</strong>, and <strong>biomedical applications</strong>, with particular interests in <strong>Alzheimer’s disease</strong>, <strong>microbiome studies</strong>, <strong>proteomics</strong>, and <strong>Bayesian modeling</strong>.
+  My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University. My research lies at the intersection of statistical methodology, high-dimensional omics data, and biomedical applications, with particular interests in Alzheimer’s disease, microbiome studies, proteomics, and Bayesian modeling.
 </div>
 
 <div class="home-intro">
@@ -223,15 +223,15 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
     </ul>
   </div>
 
-  <div class="info-card card-yellow">
-    <h3>💻 Methods & Tools</h3>
-    <ul>
-      <li>R, Python, MATLAB</li>
-      <li>Stan and brms</li>
-      <li>Generalized linear models</li>
-      <li>Reproducible statistical workflows</li>
-    </ul>
-  </div>
+<div class="info-card card-yellow">
+  <h3>💻 Methods & Tools</h3>
+  <ul>
+    <li>R, Python, MATLAB</li>
+    <li>Stan and brms</li>
+    <li>Bioinformatics: QIIME2, MetaPhlAn, HUMAnN</li>
+    <li>Sequence analysis: Kraken2, Bracken, Bowtie2, minimap2</li>
+  </ul>
+</div>
 
 </div>
 
@@ -255,10 +255,9 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
 ## 📰 News
 
 <ul class="news-list">
-  <li><strong>2025</strong> Received a Conference Fellowship for the Alzheimer’s Association International Conference.</li>
-  <li><strong>2025</strong> Conducted proteome-wide association analysis of diastolic dysfunction in the UK Biobank.</li>
-  <li><strong>2025</strong> Continued collaborative work on gut microbiome alterations related to Alzheimer’s disease.</li>
-  <li><strong>2024</strong> Presented work on odds ratio inflation and separation in logistic regression.</li>
+  <li><strong>2026.03</strong> 🎤 I will be presenting my research on the Separation Problem at the ENAR 2026 Spring Meeting.</li>
+  <li><strong>2025.11</strong> 🎉 Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>.</li>
+  <li><strong>2025.08</strong> ✨ Received a Conference Fellowship for the Alzheimer’s Association International Conference 2025.</li>
 </ul>
 
 ## 📄 Selected Research
@@ -330,6 +329,4 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
 <ul class="award-list">
   <li>Conference Fellowship, Alzheimer’s Association International Conference, 2025</li>
   <li>Outstanding Graduates Award, Wuhan University of Technology, 2020</li>
-  <li>The Third-Class Scholarship, Wuhan University of Technology, 2019</li>
-  <li>Honorable Mention, Mathematical Contest in Modeling, 2019</li>
 </ul>
