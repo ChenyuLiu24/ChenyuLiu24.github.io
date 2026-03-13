@@ -17,18 +17,29 @@ redirect_from:
 
 <style>
 .home-intro {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  margin-bottom: 1.2rem;
+  font-size: 1.06rem;
+  line-height: 1.85;
+  margin-bottom: 1.15rem;
+}
+
+.home-intro strong {
+  color: #19376d;
 }
 
 .home-highlight {
-  border-left: 5px solid #e97b8c;
-  background: #f8f8f8;
-  padding: 1rem 1.2rem;
-  border-radius: 10px;
-  margin: 1.5rem 0 2rem 0;
+  border-left: 6px solid #ff7a90;
+  background: linear-gradient(135deg, #fff4f6 0%, #f8fbff 100%);
+  padding: 1.05rem 1.25rem;
+  border-radius: 14px;
+  margin: 1.6rem 0 2rem 0;
   font-size: 1.08rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+}
+
+.section-title {
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .card-grid {
@@ -39,20 +50,41 @@ redirect_from:
 }
 
 .info-card {
-  background: #fafafa;
-  border: 1px solid #e8e8e8;
-  border-radius: 14px;
-  padding: 1.2rem 1.2rem 1rem 1.2rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border-radius: 18px;
+  padding: 1.25rem 1.2rem 1.05rem 1.2rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.06);
 }
 
 .info-card h3 {
   margin-top: 0;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.18rem;
 }
 
 .info-card ul {
   margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.info-card li {
+  margin-bottom: 0.45rem;
+}
+
+.card-blue {
+  background: linear-gradient(135deg, #eef4ff 0%, #f8fbff 100%);
+}
+
+.card-pink {
+  background: linear-gradient(135deg, #fff1f5 0%, #fff9fb 100%);
+}
+
+.card-yellow {
+  background: linear-gradient(135deg, #fff9e8 0%, #fffef7 100%);
+}
+
+.card-green {
+  background: linear-gradient(135deg, #edfdf5 0%, #f8fffb 100%);
 }
 
 .paper-box {
@@ -60,12 +92,12 @@ redirect_from:
   flex-wrap: wrap;
   gap: 1.2rem;
   align-items: stretch;
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #ececec;
-  border-radius: 16px;
-  padding: 1rem;
+  border-radius: 18px;
+  padding: 1.15rem;
   margin-bottom: 1.4rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
 
 .paper-box-image {
@@ -75,7 +107,7 @@ redirect_from:
 
 .paper-box-image img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .paper-box-text {
@@ -84,39 +116,94 @@ redirect_from:
 
 .badge-soft {
   display: inline-block;
-  padding: 0.2rem 0.65rem;
+  padding: 0.25rem 0.72rem;
   border-radius: 999px;
-  background: #f7d9df;
-  color: #a33a57;
+  background: #ffe0e7;
+  color: #a63d57;
   font-size: 0.82rem;
-  font-weight: 600;
-  margin-bottom: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.85rem;
 }
 
-.section-space {
-  margin-top: 2.2rem;
+.badge-blue {
+  background: #e4eeff;
+  color: #2f5da8;
+}
+
+.badge-green {
+  background: #dcf7ea;
+  color: #1d7a55;
+}
+
+.news-list li,
+.award-list li,
+.edu-list li {
+  margin-bottom: 0.45rem;
+}
+
+.fun-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.fact-box {
+  background: linear-gradient(135deg, #ffffff 0%, #fafcff 100%);
+  border: 1px solid #ebedf0;
+  border-radius: 16px;
+  padding: 1rem 1rem 0.9rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+}
+
+.fact-number {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #e85d75;
+  line-height: 1.2;
+}
+
+.fact-label {
+  margin-top: 0.35rem;
+  font-size: 0.98rem;
+  color: #444;
+}
+
+.contact-box {
+  background: linear-gradient(135deg, #f7fbff 0%, #fff9fb 100%);
+  border: 1px solid #e9eef5;
+  border-radius: 16px;
+  padding: 1rem 1.2rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .home-intro {
+    font-size: 1rem;
+  }
 }
 </style>
 
 <span class='anchor' id='about-me'></span>
 
 <div class="home-intro">
-  My name is <strong>Chenyu Liu</strong>. I am a Ph.D. student in <strong>Epidemiology and Biostatistics</strong> at <strong>Case Western Reserve University</strong>. My research lies at the intersection of <strong>statistical methodology</strong>, <strong>high-dimensional omics data</strong>, and <strong>biomedical applications</strong>, with a particular interest in Alzheimer’s disease, microbiome studies, proteomics, and Bayesian modeling.
+  My name is <strong>Chenyu Liu</strong>. I am a <strong>Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University</strong>. My research lies at the intersection of <strong>statistical methodology</strong>, <strong>high-dimensional omics data</strong>, and <strong>biomedical applications</strong>, with particular interests in <strong>Alzheimer’s disease</strong>, <strong>microbiome studies</strong>, <strong>proteomics</strong>, and <strong>Bayesian modeling</strong>.
 </div>
 
 <div class="home-intro">
-  I work on both methodological and applied problems. On the methods side, I study separation in logistic regression and develop correction procedures for odds ratio inflation. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and improve statistical inference in translational research.
+  I work on both methodological and applied problems. On the methodological side, I study separation in logistic regression and develop correction procedures for odds ratio inflation. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and improve statistical inference in translational research.
 </div>
 
 <div class="home-highlight">
-  My research focuses on developing reliable statistical methods for complex biomedical data and applying them to problems in Alzheimer’s disease, microbiome science, and precision health.
+  My research focuses on developing reliable statistical methods for complex biomedical data, especially in Alzheimer’s disease, microbiome science, and precision health.
 </div>
 
 Feel free to reach out if you would like to discuss research, collaboration, or related projects.
 
 <div class="card-grid">
 
-  <div class="info-card">
+  <div class="info-card card-blue">
     <h3>📊 Research Interests</h3>
     <ul>
       <li>Bayesian modeling</li>
@@ -126,23 +213,23 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
     </ul>
   </div>
 
-  <div class="info-card">
-    <h3>🧬 Current Topics</h3>
+  <div class="info-card card-pink">
+    <h3>🧬 Current Research</h3>
     <ul>
-      <li>Alzheimer’s disease and gut-brain axis</li>
+      <li>Alzheimer’s disease and the gut-brain axis</li>
       <li>Low-biomass blood metagenomics</li>
       <li>High-dimensional omics integration</li>
       <li>Clinical and translational biostatistics</li>
     </ul>
   </div>
 
-  <div class="info-card">
+  <div class="info-card card-yellow">
     <h3>💻 Methods & Tools</h3>
     <ul>
       <li>R, Python, MATLAB</li>
-      <li>Stan, brms, generalized linear models</li>
-      <li>Shotgun metagenomics workflows</li>
-      <li>Reproducible statistical computing</li>
+      <li>Stan and brms</li>
+      <li>Generalized linear models</li>
+      <li>Reproducible statistical workflows</li>
     </ul>
   </div>
 
@@ -150,72 +237,105 @@ Feel free to reach out if you would like to discuss research, collaboration, or 
 
 ## 📰 News
 
-- **2025**: Received a Conference Fellowship for the Alzheimer’s Association International Conference.
-- **2025**: Worked on proteome-wide association analysis of diastolic dysfunction in UK Biobank.
-- **2025**: Continued collaborative work on gut microbiome alterations related to Alzheimer’s disease.
-- **2024**: Presented work on odds ratio inflation and separation in logistic regression.
+<ul class="news-list">
+  <li><strong>2025</strong> Received a Conference Fellowship for the Alzheimer’s Association International Conference.</li>
+  <li><strong>2025</strong> Conducted proteome-wide association analysis of diastolic dysfunction in the UK Biobank.</li>
+  <li><strong>2025</strong> Continued collaborative work on gut microbiome alterations related to Alzheimer’s disease.</li>
+  <li><strong>2024</strong> Presented work on odds ratio inflation and separation in logistic regression.</li>
+</ul>
 
 ## 📄 Selected Research
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/500x300.png" alt="research image">
+    <img src="/images/500x300.png" alt="logistic regression project">
   </div>
 
-  <div class="paper-box-text" markdown="1">
-  <div class="badge-soft">Methodology</div>
-
-  ### Suppressing Odds Ratio Inflation in Logistic Regression
-
-  Developed diagnostic ideas for separation severity in logistic regression and worked on correction procedures for inflated odds ratio estimates under perfect or near separation.
-
-  **Keywords:** logistic regression, separation, odds ratio inflation, Bayesian methods
-
+  <div class="paper-box-text">
+    <div class="badge-soft">Methodology</div>
+    <h3>Suppressing Odds Ratio Inflation in Logistic Regression</h3>
+    <p>
+      I develop diagnostic tools and correction procedures for inflated odds ratio estimates under perfect or near separation in logistic regression.
+    </p>
+    <p><strong>Keywords:</strong> logistic regression, separation, odds ratio inflation, Bayesian methods</p>
   </div>
 </div>
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/500x300.png" alt="research image">
+    <img src="/images/500x300.png" alt="microbiome and Alzheimer's project">
   </div>
 
-  <div class="paper-box-text" markdown="1">
-  <div class="badge-soft">Biomedical Application</div>
-
-  ### Gut Microbiome and Alzheimer’s Disease
-
-  Studied microbiome alterations associated with Alzheimer’s disease and APOE-related risk, with emphasis on shotgun metagenomic analysis, the gut-brain axis, and microbial mechanisms relevant to neurodegeneration.
-
-  **Keywords:** Alzheimer’s disease, microbiome, APOE4, gut-brain axis
-
+  <div class="paper-box-text">
+    <div class="badge-soft badge-blue">Biomedical Application</div>
+    <h3>Gut Microbiome and Alzheimer’s Disease</h3>
+    <p>
+      I study microbiome alterations associated with Alzheimer’s disease and APOE-related risk, with emphasis on shotgun metagenomic analysis, the gut-brain axis, and microbial mechanisms relevant to neurodegeneration.
+    </p>
+    <p><strong>Keywords:</strong> Alzheimer’s disease, microbiome, APOE4, gut-brain axis</p>
   </div>
 </div>
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/500x300.png" alt="research image">
+    <img src="/images/500x300.png" alt="proteomics project">
   </div>
 
-  <div class="paper-box-text" markdown="1">
-  <div class="badge-soft">Omics & Clinical Data</div>
+  <div class="paper-box-text">
+    <div class="badge-soft badge-green">Omics & Clinical Data</div>
+    <h3>Proteomics and Biomarker Discovery</h3>
+    <p>
+      I analyze high-dimensional proteomic and clinical data to identify biomarkers associated with cardiovascular phenotypes and treatment-related changes.
+    </p>
+    <p><strong>Keywords:</strong> proteomics, biomarker discovery, cardiovascular outcomes, high-dimensional data</p>
+  </div>
+</div>
 
-  ### Proteomics and Biomarker Discovery
+## 🌍 Outside of Research
 
-  Analyzed high-dimensional proteomic and clinical data to identify biomarkers associated with cardiovascular phenotypes and treatment-related changes.
+<div class="info-card card-green">
+  <p>
+    Outside of research, I enjoy <strong>photography</strong>, <strong>traveling</strong>, <strong>kayaking</strong>, and <strong>exploring food</strong>. I'm also learning to <strong>bake</strong>!
+  </p>
+</div>
 
-  **Keywords:** proteomics, biomarker discovery, cardiovascular outcomes, high-dimensional data
+## ✈️ Travel Snapshot
 
+<div class="fun-facts">
+  <div class="fact-box">
+    <div class="fact-number">20</div>
+    <div class="fact-label">Provinces / municipalities / autonomous regions in China</div>
+  </div>
+  <div class="fact-box">
+    <div class="fact-number">12</div>
+    <div class="fact-label">States in the United States</div>
+  </div>
+  <div class="fact-box">
+    <div class="fact-number">8</div>
+    <div class="fact-label">Countries visited</div>
   </div>
 </div>
 
 ## 🎓 Education
 
-- **Ph.D. in Epidemiology and Biostatistics**, Case Western Reserve University, 2023 to present  
-- **M.S. in Statistics**, Case Western Reserve University, 2021 to 2023  
-- **B.S. in Statistics**, Wuhan University of Technology, 2016 to 2020  
+<ul class="edu-list">
+  <li><strong>Ph.D. in Epidemiology and Biostatistics</strong>, Case Western Reserve University, 2023 to present</li>
+  <li><strong>M.S. in Statistics</strong>, Case Western Reserve University, 2021 to 2023</li>
+  <li><strong>B.S. in Statistics</strong>, Wuhan University of Technology, 2016 to 2020</li>
+</ul>
 
 ## 🏅 Honors and Awards
 
-- Conference Fellowship, Alzheimer’s Association International Conference, 2025  
-- Outstanding Graduates Award, Wuhan University of Technology, 2020  
+<ul class="award-list">
+  <li>Conference Fellowship, Alzheimer’s Association International Conference, 2025</li>
+  <li>Outstanding Graduates Award, Wuhan University of Technology, 2020</li>
+  <li>The Third-Class Scholarship, Wuhan University of Technology, 2019</li>
+  <li>Honorable Mention, Mathematical Contest in Modeling, 2019</li>
+</ul>
 
+## 📬 Contact
+
+<div class="contact-box">
+  <p><strong>Email:</strong> <a href="mailto:cxl1299@case.edu">cxl1299@case.edu</a></p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/ChenyuLiu24">ChenyuLiu24</a></p>
+</div>
