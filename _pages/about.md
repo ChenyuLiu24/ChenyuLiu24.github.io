@@ -363,7 +363,7 @@ redirect_from:
 ## 🤝 Service
 
 <ul class="award-list">
-  <li><strong>President</strong>, American Statistical Association Student Chapter, Case Western Reserve University, 2024–2025</li>
+  <li><strong>President</strong>, American Statistical Association Student Chapter, Case Western Reserve University, 2024–present</li>
   <li><strong>Student Representative</strong>, Department of Population and Quantitative Health Sciences, Case Western Reserve University, 2024–present</li>
   <li><strong>Statistical Consultant</strong>, collaborative biomedical research projects, 2024–present</li>
   <li><strong>Poster Judge</strong>, Fall Intersection, Case Western Reserve University, 2025</li>
