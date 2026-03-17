@@ -23,6 +23,20 @@ redirect_from:
   color: #2d3748;
 }
 
+  .welcome-banner {
+  display: inline-block;
+  margin-bottom: 1.1rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #eef4ff 0%, #fff3f7 100%);
+  border: 1px solid #dbe7fb;
+  color: #355c9a;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 12px rgba(40, 56, 90, 0.05);
+}
+
 .home-intro strong {
   color: #234a8f;
 }
@@ -279,6 +293,10 @@ a:hover {
 </style>
 
 <span class='anchor' id='about-me'></span>
+
+
+<div class="welcome-banner">Welcome! I’m glad you’re here :) </div>
+
 
 <div class="home-intro">
 My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University, where I work on both methodological and applied problems. Methodologically, I study separation in logistic regression and develop correction procedures to address odds ratio inflation. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and improve statistical inference in translational research.
