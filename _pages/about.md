@@ -432,18 +432,18 @@ My research sits at the intersection of statistical methodology, high-dimensiona
 ## 🎓 Education
 
 <ul class="edu-list">
-  <li><strong>Ph.D. in Epidemiology and Biostatistics</strong>, Case Western Reserve University, 2023 to present</li>
-  <li><strong>M.S. in Statistics</strong>, Case Western Reserve University, 2021 to 2023</li>
-  <li><strong>B.S. in Statistics</strong>, Wuhan University of Technology, 2016 to 2020</li>
+  <li><strong>Ph.D. in Epidemiology and Biostatistics</strong>, Case Western Reserve University, 2023 - present</li>
+  <li><strong>M.S. in Statistics</strong>, Case Western Reserve University, 2021 - 2023</li>
+  <li><strong>B.S. in Statistics</strong>, Wuhan University of Technology, 2016 - 2020</li>
 </ul>
 
 <span class='anchor' id='service'></span>
 ## 🤝 Service
 
 <ul class="award-list">
-  <li><strong>President</strong>, American Statistical Association Student Chapter, Case Western Reserve University, 2024–present</li>
-  <li><strong>Student Representative</strong>, Department of Population and Quantitative Health Sciences, Case Western Reserve University, 2024–present</li>
-  <li><strong>Statistical Consultant</strong>, collaborative biomedical research projects, 2024–present</li>
+  <li><strong>President</strong>, American Statistical Association Student Chapter, Case Western Reserve University, 2024 – present</li>
+  <li><strong>Student Representative</strong>, Department of Population and Quantitative Health Sciences, Case Western Reserve University, 2024 – present</li>
+  <li><strong>Statistical Consultant</strong>, collaborative biomedical research projects, 2024 – present</li>
   <li><strong>Poster Judge</strong>, Fall Intersection, Case Western Reserve University, 2025</li>
 </ul>
 
