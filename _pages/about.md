@@ -372,7 +372,7 @@ My research sits at the intersection of statistical methodology, high-dimensiona
 ## 🎉 News
 
 <ul class="news-list">
-  <li><strong>2026.03</strong> I will be presenting my research on the Separation Problem at the ENAR 2026 Spring Meeting!</li>
+  <li><strong>2026.03</strong> Presented my research on the Separation Problem at the ENAR 2026 Spring Meeting!</li>
   <li><strong>2025.11</strong> Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>!</li>
   <li><strong>2025.08</strong> Received a Conference Fellowship for the Alzheimer’s Association International Conference 2025!</li>
 </ul>
