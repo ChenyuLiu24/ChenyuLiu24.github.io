@@ -299,7 +299,7 @@ a:hover {
 
 
 <div class="home-intro">
-My name is Chenyu Liu. I am a Ph.D. student in Epidemiology and Biostatistics at Case Western Reserve University, where I work on both methodological and applied problems. Methodologically, I study separation in logistic regression and develop correction procedures to address odds ratio inflation. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and improve statistical inference in translational research.
+My name is Chenyu Liu. I am a Ph.D. student in Epidemiology & Biostatistics at Case Western Reserve University, working at the intersection of statistical methodology and applied research. Methodologically, I focus on separation in logistic regression and the development of analytical methods for microbiome data. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and strengthen statistical inference in translational research.
 </div>
 
 <div class="home-highlight">
