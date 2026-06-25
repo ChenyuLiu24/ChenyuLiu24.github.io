@@ -195,6 +195,11 @@ a:hover {
   background: #ddf5e7;
   color: #2d7f5e;
 }
+  
+.badge-yellow {
+  background-color: #fef9c3 !important;
+  color: #854d0e !important;
+}
 
 .news-list,
 .award-list,
