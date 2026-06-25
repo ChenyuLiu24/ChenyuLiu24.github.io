@@ -372,6 +372,8 @@ My research sits at the intersection of statistical methodology, high-dimensiona
 ## 🎉 News
 
 <ul class="news-list">
+  <li><strong>2026.05</strong> I successfully defended my dissertation proposal and became a PhD Candidate!</li>
+  <li><strong>2026.04</strong> Our comprehensive review on the Gut-Brain Axis was accepted by <em>Frontiers in Molecular Biosciences</em>!</li>
   <li><strong>2026.03</strong> Presented my research on the Separation Problem at the ENAR 2026 Spring Meeting!</li>
   <li><strong>2025.11</strong> Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>!</li>
   <li><strong>2025.08</strong> Received a Conference Fellowship for the Alzheimer’s Association International Conference 2025!</li>
@@ -409,6 +411,8 @@ My research sits at the intersection of statistical methodology, high-dimensiona
       I study microbiome alterations associated with Alzheimer’s disease and APOE-related risk, with emphasis on shotgun metagenomic analysis, the gut-brain axis, and microbial mechanisms relevant to neurodegeneration.
     </p>
     <p><strong>Keywords:</strong> Alzheimer’s disease, microbiome, APOE4, gut-brain axis</p>
+    <p>
+    <strong>Related Publication:</strong> <a href="https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1735332/full" target="_blank">Comprehensive Review</a></p>
   </div>
 </div>
 
@@ -419,11 +423,13 @@ My research sits at the intersection of statistical methodology, high-dimensiona
 
   <div class="paper-box-text">
     <div class="badge-soft badge-green">Omics & Clinical Data</div>
-    <h3>Proteomics and Biomarker Discovery</h3>
+    <h3>Proteomics Discovery</h3>
     <p>
       I analyze high-dimensional proteomic and clinical data to identify biomarkers associated with cardiovascular phenotypes and treatment-related changes.
     </p>
     <p><strong>Keywords:</strong> proteomics, biomarker discovery, cardiovascular outcomes, high-dimensional data</p>
+    <p>
+    <strong>Related Publication:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S2590059525002274" target="_blank">A Pilot Study</a></p>
   </div>
 </div>
 
@@ -441,7 +447,7 @@ My research sits at the intersection of statistical methodology, high-dimensiona
 ## 🤝 Service
 
 <ul class="award-list">
-  <li><strong>President</strong>, American Statistical Association Student Chapter, Case Western Reserve University, 2024 – present</li>
+  <li><strong>President</strong>, American Statistical Association Student Chapter, Case Western Reserve University, 2024 – 2026</li>
   <li><strong>Student Representative</strong>, Department of Population and Quantitative Health Sciences, Case Western Reserve University, 2024 – present</li>
   <li><strong>Statistical Consultant</strong>, collaborative biomedical research projects, 2024 – present</li>
   <li><strong>Poster Judge</strong>, Fall Intersection, Case Western Reserve University, 2025</li>
