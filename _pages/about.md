@@ -407,6 +407,7 @@ My research sits at the intersection of statistical methodology, high-dimensiona
 
   <div class="paper-box-text">
     <div class="badge-soft badge-blue">Biomedical Application</div>
+    <div class="badge-soft badge-green">Omics</div>
     <h3>Gut Microbiome and Alzheimer’s Disease</h3>
     <p>
       I study microbiome alterations associated with Alzheimer’s disease and APOE-related risk, with emphasis on shotgun metagenomic analysis, the gut-brain axis, and microbial mechanisms relevant to neurodegeneration.
@@ -423,7 +424,9 @@ My research sits at the intersection of statistical methodology, high-dimensiona
   </div>
 
   <div class="paper-box-text">
-    <div class="badge-soft badge-green">Omics & Clinical Data</div>
+    <div class="badge-soft badge-blue">Biomedical Application</div>
+    <div class="badge-soft badge-green">Omics</div>
+    <div class="badge-soft badge-yellow">Clinical Data</div>
     <h3>Proteomics Discovery</h3>
     <p>
       I analyze high-dimensional proteomic and clinical data to identify biomarkers associated with cardiovascular phenotypes and treatment-related changes.
