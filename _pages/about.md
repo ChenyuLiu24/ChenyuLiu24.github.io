@@ -299,7 +299,7 @@ a:hover {
 
 
 <div class="home-intro">
-My name is Chenyu Liu. I am a Ph.D. student in Epidemiology & Biostatistics at Case Western Reserve University, working at the intersection of statistical methodology and applied research. Methodologically, I focus on separation in logistic regression and the development of analytical methods for microbiome data. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and strengthen statistical inference in translational research.
+My name is Chenyu Liu. I am a Ph.D. student in Epidemiology & Biostatistics at Case Western Reserve University, working at the intersection of statistical methodology and applied research. Methodologically, I focus on separation in logistic regression and the development of analytical methods for microbiome data. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and strengthen statistical inference in translational research. I also provide statistical consulting for researchers who are less familiar with quantitative methods.
 </div>
 
 <div class="home-highlight">
@@ -372,6 +372,7 @@ My research sits at the intersection of statistical methodology, high-dimensiona
 ## 🎉 News
 
 <ul class="news-list">
+  <li><strong>2026.06</strong> My first consulting project has been published in <em>The Journal of Spinal Cord Medicine</em>!</li>
   <li><strong>2026.05</strong> I successfully defended my dissertation proposal and became a PhD Candidate!</li>
   <li><strong>2026.04</strong> Our comprehensive review on the Gut-Brain Axis was accepted by <em>Frontiers in Molecular Biosciences</em>!</li>
   <li><strong>2026.03</strong> Presented my research on the Separation Problem at the ENAR 2026 Spring Meeting!</li>
