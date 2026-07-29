@@ -53,6 +53,42 @@ redirect_from:
   box-shadow: 0 6px 18px rgba(42, 71, 120, 0.08);
 }
 
+  .home-intro p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.home-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.home-highlight h3 {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  color: #b24768;
+  font-size: 1.2rem;
+}
+
+.home-highlight .news-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1.3rem;
+}
+
+.home-highlight .news-list li {
+  margin-bottom: 0.55rem;
+}
+
+.home-highlight .news-list li:last-child {
+  margin-bottom: 0;
+}
+
+.home-highlight .news-list strong {
+  display: inline-block;
+  min-width: 4.8rem;
+  color: #c64f70;
+}
+
 h2 {
   color: #243b53;
   margin-top: 2.2rem;
@@ -302,12 +338,15 @@ a:hover {
 
 <div class="welcome-banner">Welcome! I’m glad you’re here :) </div>
 
-
 <div class="home-intro">
+  <p>
 My name is Chenyu Liu. I am a Ph.D. Candidate in Epidemiology and Biostatistics at Case Western Reserve University. My research focuses on developing statistical methods for challenging biomedical data, with current emphasis on separation in logistic regression, compositional data analysis, and high-dimensional variable selection and biomarker discovery.
+  </p>
 
-I also collaborate with clinical and translational researchers on study design, data analysis, and interpretation, with a particular focus on multi-omics research in Alzheimer’s disease, cardiovascular disease, and chronic kidney disease. Beyond this focus, more than two years of consulting with the Functional Electrical Stimulation Center have broadened my experience to a wider range of real-world clinical and rehabilitation research questions.
+  <p>
+I also collaborate with clinical and translational researchers on study design, data analysis, and interpretation, with a particular focus on multi-omics research in Alzheimer’s disease, cardiovascular disease, and chronic kidney disease. Additionally, more than two years of consulting with the Functional Electrical Stimulation Center have broadened my experience to a wider range of real-world clinical and rehabilitation research questions.
 
+  </p>
 </div>
 
 <div class="card-grid">
@@ -318,7 +357,7 @@ I also collaborate with clinical and translational researchers on study design, 
       <li>Bayesian modeling</li>
       <li>Logistic regression and separation</li>
       <li>Compositional data analysis</li>
-      <li>Multi-omics Research</li>
+      <li>Multi-omics research</li>
     </ul>
   </div>
 
@@ -336,7 +375,7 @@ I also collaborate with clinical and translational researchers on study design, 
     <h3>💻 Methods & Tools</h3>
     <ul>
       <li>Statistical computing: R, Python, Stan</li>
-      <li>Bioinformatics: QIIME2, MetaPhlAn, HUMAnN</li>
+      <li>Bioinformatics: QIIME 2, MetaPhlAn, HUMAnN</li>
       <li>Sequence analysis: Kraken2, Bracken, Bowtie2, minimap2</li>
       <li>Scientific computing: Bash, Git, SLURM, HPC</li>
     </ul>
@@ -344,19 +383,18 @@ I also collaborate with clinical and translational researchers on study design, 
 
 </div>
 
-
-<span class='anchor' id='news'></span>
-## 🎉 News
-
+<div class="home-highlight">
+   <h3>✨ Recent Highlights</h3>
 <ul class="news-list">
-  <li><strong>2026.06</strong> My first publication resulting from a statistical consulting collaboration appeared in <em>The Journal of Spinal Cord Medicine</em>!</li>
-  <li><strong>2026.05</strong> I successfully defended my dissertation proposal and advanced to Ph.D. candidacy!</li>
-  <li><strong>2026.04</strong> Our comprehensive review on the Gut-Brain Axis was accepted by <em>Frontiers in Molecular Biosciences</em>!</li>
-  <li><strong>2026.03</strong> Presented my research on the Separation Problem at the ENAR 2026 Spring Meeting!</li>
-  <li><strong>2025.11</strong> Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>!</li>
-  <li><strong>2025.08</strong> Received a Conference Fellowship for the Alzheimer’s Association International Conference 2025!</li>
+  <li><strong>2026.06</strong> My first publication resulting from a statistical consulting collaboration appeared in <em>The Journal of Spinal Cord Medicine</em>.</li>
+  <li><strong>2026.05</strong> I successfully defended my dissertation proposal and advanced to Ph.D. candidacy.</li>
+  <li><strong>2026.04</strong> Our comprehensive review on the Gut-Brain Axis was accepted by <em>Frontiers in Molecular Biosciences</em>.</li>
+  <li><strong>2026.03</strong> I presented my research on separation in logistic regression at the ENAR 2026 Spring Meeting.</li>
+  <li><strong>2025.11</strong> Our proteomics study of chronic kidney disease was accepted by <em>Kidney Medicine</em>.</li>
+  <li><strong>2025.08</strong> I received a Conference Fellowship for the Alzheimer’s Association International Conference 2025.</li>
 </ul>
-
+</div>
+  
 <span class='anchor' id='selected-research'></span>
 ## 📄 Selected Research
 
@@ -367,9 +405,9 @@ I also collaborate with clinical and translational researchers on study design, 
 
   <div class="paper-box-text">
     <div class="badge-soft">Methodology</div>
-    <h3>Odds Ratio Inflation in Logistic Regression</h3>
+    <h3>Separation and Odds Ratio Inflation in Logistic Regression</h3>
     <p>
-      I develop statistical tools for identifying when, where, and how separation produces unstable or inflated odds ratio estimates in logistic regression, together with methods for suppress odds ratio inflation.
+I develop statistical tools for identifying when, where, and how separation produces unstable or inflated odds ratio estimates in logistic regression, together with methods for reducing odds ratio inflation.
     </p>
     <p><strong>Keywords:</strong> logistic regression, separation, odds ratio inflation, Bayesian methods</p>
       <p>
@@ -414,34 +452,6 @@ I also collaborate with clinical and translational researchers on study design, 
   </div>
 </div>
 
-<span class='anchor' id='travel-snapshot'></span>
-
-## 🌍 Outside of Research
-
-<div class="info-card card-green">
-  <p>
-    Outside of research, I enjoy photography, traveling, kayaking, and exploring new cuisines. I've recently taken up baking — still very much a work in progress!
-  </p>
-</div>
-
-
-## ✈️ Travel Snapshot
-
-<div class="fun-facts">
-  <div class="fact-box">
-    <div class="fact-number">20</div>
-    <div class="fact-label">Provinces / municipalities / autonomous regions in China</div>
-  </div>
-  <div class="fact-box">
-    <div class="fact-number">12</div>
-    <div class="fact-label">States in the United States</div>
-  </div>
-  <div class="fact-box">
-    <div class="fact-number">8</div>
-    <div class="fact-label">Countries visited</div>
-  </div>
-</div>
-
 <span class='anchor' id='education'></span>
 ## 🎓 Education
 
@@ -468,3 +478,31 @@ I also collaborate with clinical and translational researchers on study design, 
   <li>Conference Fellowship, Alzheimer’s Association International Conference, 2025</li>
   <li>Outstanding Graduates Award, Wuhan University of Technology, 2020</li>
 </ul>
+
+<span class='anchor' id='Out-of-research'></span>
+
+## 🌍 Outside of Research
+
+<div class="info-card card-green">
+  <p>
+    Outside of research, I enjoy photography, traveling, kayaking, and exploring new cuisines. I've recently taken up baking — still very much a work in progress!
+  </p>
+</div>
+
+
+## ✈️ Travel Snapshot
+
+<div class="fun-facts">
+  <div class="fact-box">
+    <div class="fact-number">20</div>
+    <div class="fact-label">Provinces / municipalities / autonomous regions in China</div>
+  </div>
+  <div class="fact-box">
+    <div class="fact-number">12</div>
+    <div class="fact-label">States in the United States</div>
+  </div>
+  <div class="fact-box">
+    <div class="fact-number">8</div>
+    <div class="fact-label">Countries visited</div>
+  </div>
+</div>
