@@ -479,7 +479,7 @@ I develop statistical tools for identifying when, where, and how separation prod
   <li>Outstanding Graduates Award, Wuhan University of Technology, 2020</li>
 </ul>
 
-<span class='anchor' id='Out-of-research'></span>
+<span class='anchor' id='outside-of-research'></span>
 
 ## 🌍 Outside of Research
 
