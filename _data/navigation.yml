@@ -2,8 +2,6 @@
 main:
   - title: "About Me"
     url: "/#about-me"
-  - title: "News"
-    url: /#news
   - title: "Research"
     url: /#selected-research
   - title: "Education"
@@ -12,3 +10,5 @@ main:
     url: /#service
   - title: "Awards"
     url: /#awards
+  - title: "Outside Research"
+    url: /#outside-of-research
