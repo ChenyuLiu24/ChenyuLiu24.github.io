@@ -304,11 +304,10 @@ a:hover {
 
 
 <div class="home-intro">
-My name is Chenyu Liu. I am a Ph.D. student in Epidemiology & Biostatistics at Case Western Reserve University, working at the intersection of statistical methodology and applied research. Methodologically, I focus on separation in logistic regression and the development of analytical methods for microbiome data. On the applied side, I analyze complex clinical and omics datasets to identify meaningful biomarkers and strengthen statistical inference in translational research. I also provide statistical consulting for researchers who are less familiar with quantitative methods.
-</div>
+My name is Chenyu Liu. I am a Ph.D. Candidate in Epidemiology and Biostatistics at Case Western Reserve University. My research focuses on developing statistical methods for challenging biomedical data, with current emphasis on separation in logistic regression, compositional data analysis, and high-dimensional variable selection and biomarker discovery.
 
-<div class="home-highlight">
-My research sits at the intersection of statistical methodology, high-dimensional omics data, and biomedical applications. I am particularly interested in Alzheimer's disease, microbiome studies, proteomics, and Bayesian modeling.
+I also collaborate with clinical and translational researchers on study design, data analysis, and interpretation, with a particular focus on multi-omics research in Alzheimer’s disease, cardiovascular disease, and chronic kidney disease. Beyond this focus, more than two years of consulting with the Functional Electrical Stimulation Center have broadened my experience to a wider range of real-world clinical and rehabilitation research questions.
+
 </div>
 
 <div class="card-grid">
@@ -318,67 +317,40 @@ My research sits at the intersection of statistical methodology, high-dimensiona
     <ul>
       <li>Bayesian modeling</li>
       <li>Logistic regression and separation</li>
-      <li>Microbiome data analysis</li>
-      <li>Proteomics and biomarker discovery</li>
+      <li>Compositional data analysis</li>
+      <li>Multi-omics Research</li>
     </ul>
   </div>
 
   <div class="info-card card-pink">
-    <h3>🧬 Current Research</h3>
+    <h3>🧬 Biomedical Applications</h3>
     <ul>
       <li>Alzheimer’s disease and the gut-brain axis</li>
-      <li>Low-biomass blood metagenomics</li>
-      <li>High-dimensional omics integration</li>
-      <li>Clinical and translational biostatistics</li>
+      <li>Low-biomass shotgun metagenomics</li>
+      <li>Proteomics and biomarker discovery</li>
+      <li>Cardiovascular and kidney disease</li>
     </ul>
   </div>
 
   <div class="info-card card-yellow">
     <h3>💻 Methods & Tools</h3>
     <ul>
-      <li>R, Python, MATLAB</li>
-      <li>Stan and brms</li>
+      <li>Statistical computing: R, Python, Stan</li>
       <li>Bioinformatics: QIIME2, MetaPhlAn, HUMAnN</li>
       <li>Sequence analysis: Kraken2, Bracken, Bowtie2, minimap2</li>
+      <li>Scientific computing: Bash, Git, SLURM, HPC</li>
     </ul>
   </div>
 
 </div>
 
-<span class='anchor' id='travel-snapshot'></span>
-
-## 🌍 Outside of Research
-
-<div class="info-card card-green">
-  <p>
-    Outside of research, I enjoy photography, traveling, kayaking, and exploring new cuisines. I've recently taken up baking — still very much a work in progress!
-  </p>
-</div>
-
-
-## ✈️ Travel Snapshot
-
-<div class="fun-facts">
-  <div class="fact-box">
-    <div class="fact-number">20</div>
-    <div class="fact-label">Provinces / municipalities / autonomous regions in China</div>
-  </div>
-  <div class="fact-box">
-    <div class="fact-number">12</div>
-    <div class="fact-label">States in the United States</div>
-  </div>
-  <div class="fact-box">
-    <div class="fact-number">8</div>
-    <div class="fact-label">Countries visited</div>
-  </div>
-</div>
 
 <span class='anchor' id='news'></span>
 ## 🎉 News
 
 <ul class="news-list">
-  <li><strong>2026.06</strong> My first consulting project has been published in <em>The Journal of Spinal Cord Medicine</em>!</li>
-  <li><strong>2026.05</strong> I successfully defended my dissertation proposal and became a PhD Candidate!</li>
+  <li><strong>2026.06</strong> My first publication resulting from a statistical consulting collaboration appeared in <em>The Journal of Spinal Cord Medicine</em>!</li>
+  <li><strong>2026.05</strong> I successfully defended my dissertation proposal and advanced to Ph.D. candidacy!</li>
   <li><strong>2026.04</strong> Our comprehensive review on the Gut-Brain Axis was accepted by <em>Frontiers in Molecular Biosciences</em>!</li>
   <li><strong>2026.03</strong> Presented my research on the Separation Problem at the ENAR 2026 Spring Meeting!</li>
   <li><strong>2025.11</strong> Our proteomics analysis on chronic kidney disease was accepted by <em>Kidney Medicine</em>!</li>
@@ -395,9 +367,9 @@ My research sits at the intersection of statistical methodology, high-dimensiona
 
   <div class="paper-box-text">
     <div class="badge-soft">Methodology</div>
-    <h3>Suppressing Odds Ratio Inflation in Logistic Regression</h3>
+    <h3>Odds Ratio Inflation in Logistic Regression</h3>
     <p>
-      I develop diagnostic tools and correction procedures for inflated odds ratio estimates under perfect or near separation in logistic regression.
+      I develop statistical tools for identifying when, where, and how separation produces unstable or inflated odds ratio estimates in logistic regression, together with methods for suppress odds ratio inflation.
     </p>
     <p><strong>Keywords:</strong> logistic regression, separation, odds ratio inflation, Bayesian methods</p>
       <p>
@@ -442,6 +414,33 @@ My research sits at the intersection of statistical methodology, high-dimensiona
   </div>
 </div>
 
+<span class='anchor' id='travel-snapshot'></span>
+
+## 🌍 Outside of Research
+
+<div class="info-card card-green">
+  <p>
+    Outside of research, I enjoy photography, traveling, kayaking, and exploring new cuisines. I've recently taken up baking — still very much a work in progress!
+  </p>
+</div>
+
+
+## ✈️ Travel Snapshot
+
+<div class="fun-facts">
+  <div class="fact-box">
+    <div class="fact-number">20</div>
+    <div class="fact-label">Provinces / municipalities / autonomous regions in China</div>
+  </div>
+  <div class="fact-box">
+    <div class="fact-number">12</div>
+    <div class="fact-label">States in the United States</div>
+  </div>
+  <div class="fact-box">
+    <div class="fact-number">8</div>
+    <div class="fact-label">Countries visited</div>
+  </div>
+</div>
 
 <span class='anchor' id='education'></span>
 ## 🎓 Education
